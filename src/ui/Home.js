@@ -5,17 +5,10 @@ import UserForm from './UserForm';
 
 
 class Home extends Component {
-    /*
-    userForm = {
-        form:false,
-        title:'Releases',
-        text:'Manage Releases',
-        action: () => alert('teste')
-    }
-    */
+    
 
     render() {
-        const logo = 'Biblioteca'
+        const logo = 'Biblioteca - Usuário'
         return (
         <div>
             <NavBar logo = { logo }/>
